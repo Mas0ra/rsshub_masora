@@ -48,8 +48,8 @@ importers:
         specifier: 35.0.0
         version: 35.0.0
       '@honeybadger-io/js':
-        specifier: 6.16.5
-        version: 6.16.5
+        specifier: 6.16.6
+        version: 6.16.6
       '@hono/node-server':
         specifier: 2.1.4
         version: 2.1.4(hono@4.13.13)
@@ -1224,12 +1224,12 @@ packages:
     resolution: {integrity: sha512-mUD2mMgqFmmSZbTgKisVFpOwWj1aOt3UbMCVorwYTVyZkqdY1QURs2SMaP5g6IPHvuUYWBaBIn7CMhFWIEqQ2Q==}
     engines: {node: '>=12.0.0'}
 
-  '@honeybadger-io/core@6.11.1':
-    resolution: {integrity: sha512-ojVk6q2GUXqW80szrk/zp2XC1YQFJWQvGHdNNyc1RPGTekguSMpa7Pp9jKitHpdYIsbmEnj1wPTyZassOfSLeg==}
+  '@honeybadger-io/core@6.11.2':
+    resolution: {integrity: sha512-GD1NrwEnLG0z5ZV72T3u+MahE2hjBCKguG/+AVaoN6t+1Hn0NVVZiOzCsY0dwhhQfyqk/n85Ra1dnwqpAxggcQ==}
     engines: {node: '>=14'}
 
-  '@honeybadger-io/js@6.16.5':
-    resolution: {integrity: sha512-Zfz5+qf3a2acet76fQvnKOB6B4MuegNYvIfRcWadrLKHmbAcqXG+/TS5GmxYxGkqbs9/R61sEfsZaHkrwIBoVQ==}
+  '@honeybadger-io/js@6.16.6':
+    resolution: {integrity: sha512-CprzZRLtiNcqAZnJcJ6jk0pVbdSjQikiA1K5Ew5J5QWPE9uy8ier3ohCJ5EZTcBQ38nfrifTZnkvUtkIkpqd1A==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
@@ -2732,8 +2732,8 @@ packages:
   '@tybys/wasm-util@0.10.3':
     resolution: {integrity: sha512-F3fo1MYrRJYL3zER0OUOmkutjr1Vp23m7OsSgp7nq4SP6OqX6C/56XFIPAl5bt3zaBRjmW7SGz3u/6LwFpYcOg==}
 
-  '@types/aws-lambda@8.10.163':
-    resolution: {integrity: sha512-+4zuoEB3S8RIhimtOFT7zAEk2SbpwrKjjGl9CyYnQR6k08uynxfauIIB0pDU1ssr05F8oyGiETwpn+8eXZMqPw==}
+  '@types/aws-lambda@8.10.164':
+    resolution: {integrity: sha512-XOnrazWcOd6yWPnR7DxqCBPPYciDjHq+NN8LPwwqBCJNXLyPJgKo47fZpJ113+oyAn9Zti0Cf6H4k6yPcE3WFg==}
 
   '@types/bluebird@3.5.42':
     resolution: {integrity: sha512-Jhy+MWRlro6UjVi578V/4ZGNfeCOcNCp0YaFNIUGFKlImowqwb1O/22wDVk3FDGMLqxdpOV3qQHD5fPEH4hK6A==}
@@ -7010,15 +7010,15 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@honeybadger-io/core@6.11.1':
+  '@honeybadger-io/core@6.11.2':
     dependencies:
       json-nd: 1.0.0
       stacktrace-parser: 0.1.11
 
-  '@honeybadger-io/js@6.16.5':
+  '@honeybadger-io/js@6.16.6':
     dependencies:
-      '@honeybadger-io/core': 6.11.1
-      '@types/aws-lambda': 8.10.163
+      '@honeybadger-io/core': 6.11.2
+      '@types/aws-lambda': 8.10.164
       '@types/express': 5.0.6
 
   '@hono/node-server@2.1.4(hono@4.13.13)':
@@ -8105,7 +8105,7 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
-  '@types/aws-lambda@8.10.163': {}
+  '@types/aws-lambda@8.10.164': {}
 
   '@types/bluebird@3.5.42': {}
 
