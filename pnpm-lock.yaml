@@ -60,8 +60,8 @@ importers:
         specifier: 3.1.2
         version: 3.1.2
       '@notionhq/client':
-        specifier: 5.26.0
-        version: 5.26.0
+        specifier: 5.31.0
+        version: 5.31.0
       '@opentelemetry/api':
         specifier: 1.9.1
         version: 1.9.1
@@ -1631,9 +1631,9 @@ packages:
     resolution: {integrity: sha512-y3SvzjuY1ygnzWA4Krwx/WaJAsTMP11DN+e21A8Fa8PW1oDtVB5NSRW7LWurAiS2oKRkuCgcjTYMkBuBkcPCRg==}
     engines: {node: '>=12.4.0'}
 
-  '@notionhq/client@5.26.0':
-    resolution: {integrity: sha512-Oc3438nQ5YmZkVO7YJG8fcTYl0V46CirdCvO33azZ9f7ZfD2rsHE4fUVANJiBB9Xf1sqpCs82nd8oKPxeXLmMg==}
-    engines: {node: '>=18'}
+  '@notionhq/client@5.31.0':
+    resolution: {integrity: sha512-UC1fMmy8ifyHKxn8TwqjRZi2COPKXpkrPeUrdusi0RUV9aQN8XGTXUIxri8bjxl6cnCIjgwGuVDDkBdGrSGg8w==}
+    engines: {node: '>=22'}
 
   '@octokit/auth-token@6.0.0':
     resolution: {integrity: sha512-P4YJBPdPSpWTQ1NU4XYdvHvXJJDxM6YwpS0FZHRgP7YFkdVxsWcpWGy/NVqlAA7PcPCnMacXlRm1y2PFZRWL/w==}
@@ -7337,7 +7337,7 @@ snapshots:
 
   '@nolyfill/side-channel@1.0.44': {}
 
-  '@notionhq/client@5.26.0': {}
+  '@notionhq/client@5.31.0': {}
 
   '@octokit/auth-token@6.0.0': {}
 
