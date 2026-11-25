@@ -140,16 +140,3 @@ jobs:
               with:
                   name: generated-assets-${{ matrix.node-version }}
                   path: assets/build/
-
-    automerge:
-        if: github.triggering_actor == 'dependabot[bot]' && github.event_name == 'pull_request'
-        needs: [vitest, playwright, all]
-        runs-on: ubuntu-slim
-        permissions:
-            pull-requests: write
-            contents: write
-        steps:
-            - uses: fastify/github-action-merge-dependabot@73ec4cbb5e56df5591eae286972d5b2201ffe90f # v3.15.0
-              with:
-                  github-token: ${{ secrets.GITHUB_TOKEN }}
-                  target: patch
